@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(7, 38, 66);
+  height: 100vh;
+  width: 100%;
+}
+
+.h1__Main{
+  height: 10%;
+  width: 100%;
+  /* background-color: rgba(255, 238, 5, 0.74); */
+  color: rgb(7, 38, 66);
+  background-color: white;
+}
+.Des__Arr{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+}
+.form__des{
+  margin-top: 2%;
+  height: 25vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-left: 4%;
+  font-weight: bolder;
+  box-shadow: 2px 2px 12px 2px gray;
+  border-radius: 2%;
+}
+.edit__title{
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  width: 100%;
+  margin-bottom: 2%;
+}
+.edit__title::placeholder{
+  font-weight: bolder;
+  color:  rgb(7, 38, 66);
+}
+.edit__txtarea{
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+.edit__txtarea::placeholder{
+  font-weight: bolder;
+  color:  rgb(7, 38, 66);
+}
+.btn__Civi{
+  background-color: white;
+  margin-top: -2%;
+  margin-left:39% ;
+  box-shadow: 4px 4px 16px 4px gray;
+  border-radius: 50%;
+}
+.btn__int:hover{
+color: green;
+}
+.Note__get{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  box-shadow: 2px 2px 12px 2px gray;
+  margin:4vmin 4vmin 4vmin 4vmin;
+  border-radius: 5%;
+}
+.arrange_divnote{
+  height: 20vh;
+  width: 18vw;
+  margin-bottom: 2vmin;
+  display: inline-flex;
+ 
+}
+.Note__gettitl{
+  font-weight: bolder;
+  height: 5vmin;
+  padding-bottom: 4vmax;
+}
+.Note__getcont{
+  font-weight: bolder;
+  height: 5vmin;
+  padding-bottom: 2vmax;
+}
+.footer__des{
+  position: relative;
+  
+  height: 10vh;
+width: 100%;
+text-align: center;
+margin-top: 28%;
+color: white;
+}
+.dlt__sys{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8%;
+}
+.deletbtn__des:hover{
+  color: rgb(255, 238, 5);
+  
+}
